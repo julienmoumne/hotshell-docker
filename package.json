@@ -1,0 +1,30 @@
+{
+  "name": "hotshell-docker",
+  "version": "0.1.0",
+  "description": "A collection of Hotshell patterns for Docker commands",
+  "main": "docker.hs.js",
+  "directories": {
+    "example": "examples"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/julienmoumne/hotshell-docker"
+  },
+  "keywords": [
+    "hotshell",
+    "docker",
+    "common",
+    "util",
+    "shell",
+    "bash",
+    "console",
+    "interactive",
+    "hotkey"
+  ],
+  "author": "Julien Moumné <julien@moumne.com> (http://moumne.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/julienmoumne/hotshell-docker/issues"
+  },
+  "homepage": "https://github.com/julienmoumne/hotshell-docker"
+}
