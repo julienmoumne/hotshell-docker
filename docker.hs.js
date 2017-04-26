@@ -4,7 +4,7 @@ var commands = [
     {key: 'r', desc: 'restart', ps: true},
     {key: 's', desc: 'stop', ps: true},
     {key: 'k', desc: 'kill', ps: true},
-    {key: 'l', desc: 'logs'},
+    {key: 'l', desc: 'logs -f'},
     {key: 'p', desc: 'ps'},
     {key: 'b', desc: 'build'},
     {key: 'd', desc: 'rm', ps: true}
