@@ -13,6 +13,7 @@ is a command-line application to efficiently recall and share commands.
     * [Docker Compose](#docker-compose)
         - [Services First](#services-first)
         - [Commands First](#commands-first)
+        - [Alternate Compose File](#alternate-compose-file)
   - [Import hotshell-docker](#import-hotshell-docker)
 
 
@@ -56,6 +57,26 @@ item({desc: 'docker-compose: services > commands'}, function() {
 
 See [example source code](./examples/compose/services-first.hs.js)
 and a [demo](http://moumne.com/hotshell/demos/docker-compose.hs.js.html) (activate submenu `services > commands`)
+
+#### Alternate Compose File
+
+> Specify an alternate docker-compose file
+
+Usage:
+
+```javascript
+item({desc: 'docker-compose: alternate compose files'}, function() {
+    item({key: 'd', desc: 'default file'}, docker.compose.servicesFirst)
+    item({key: 'a', desc: 'alternate file'}, function() {
+        docker.compose.servicesFirst('alternate-compose.yml')
+    })
+    item({key: 'c', desc: 'alternate file commands first'}, function() {
+        docker.compose.commandsFirst('alternate-compose.yml')
+    })
+})
+```
+
+See [example source code](./examples/compose/alternate-compose-files.hs.js)
 
 ## Import hotshell-docker
 
