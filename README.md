@@ -36,7 +36,7 @@ Usage:
 
 ```javascript
 item({desc: 'docker-compose: commands > services'}, function() {
-    docker.compose.commandsFirst()
+    docker.compose().commandsFirst()
 })
 ```
 
@@ -51,7 +51,7 @@ Usage:
 
 ```javascript
 item({desc: 'docker-compose: services > commands'}, function() {
-    docker.compose.servicesFirst()
+    docker.compose().servicesFirst()
 })
 ```
 
@@ -66,13 +66,10 @@ Usage:
 
 ```javascript
 item({desc: 'docker-compose: alternate compose files'}, function() {
-    item({key: 'd', desc: 'default file'}, docker.compose.servicesFirst)
-    item({key: 'a', desc: 'alternate file'}, function() {
-        docker.compose.servicesFirst('alternate-compose.yml')
-    })
-    item({key: 'c', desc: 'alternate file commands first'}, function() {
-        docker.compose.commandsFirst('alternate-compose.yml')
-    })
+    item({key: 'd', desc: 'default file, services > commands'}, docker.compose().servicesFirst)
+    var alternateCompose = docker.compose('alternate-compose.yml')
+    item({key: 'a', desc: 'alternate file, services > commands'}, alternateCompose.servicesFirst)
+    item({key: 'c', desc: 'alternate file, commands > services'}, alternateCompose.commandsFirst)
 })
 ```
 
