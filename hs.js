@@ -4,5 +4,5 @@ item({desc: 'hotshell-docker'}, function () {
             item({key: ix, desc: el, cmd: 'hs --chdir -f ' + el})
         })
     })
-    item({key: 'p', desc: 'publish npm', cmd: 'npm publish'})
+    item({key: 'r', desc: 'release new version', cmd: './release.sh'})
 })
