@@ -1,3 +1,7 @@
+var item = require('hotshell').item
+var exec = require('hotshell').exec
+var _ = require('underscore')
+
 exports.compose = function(composeFile) {
     var services = retrieveServices(composeFile)
     

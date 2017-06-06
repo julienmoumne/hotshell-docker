@@ -1,0 +1,255 @@
+[
+  {
+    "key":"u",
+    "desc":"up -d",
+    "ps":true,
+    "items":[
+      {
+        "key":"a",
+        "desc":"all",
+        "cmd":"docker-compose -f docker-compose.test.yml up -d && docker-compose -f docker-compose.test.yml ps",
+        "items":[
+
+        ]
+      },
+      {
+        "key":0,
+        "desc":"ubuntu",
+        "cmd":"docker-compose -f docker-compose.test.yml up -d ubuntu && docker-compose -f docker-compose.test.yml ps ubuntu",
+        "items":[
+
+        ]
+      },
+      {
+        "key":1,
+        "desc":"nginx",
+        "cmd":"docker-compose -f docker-compose.test.yml up -d nginx && docker-compose -f docker-compose.test.yml ps nginx",
+        "items":[
+
+        ]
+      }
+    ]
+  },
+  {
+    "key":"r",
+    "desc":"restart",
+    "ps":true,
+    "items":[
+      {
+        "key":"a",
+        "desc":"all",
+        "cmd":"docker-compose -f docker-compose.test.yml restart && docker-compose -f docker-compose.test.yml ps",
+        "items":[
+
+        ]
+      },
+      {
+        "key":0,
+        "desc":"ubuntu",
+        "cmd":"docker-compose -f docker-compose.test.yml restart ubuntu && docker-compose -f docker-compose.test.yml ps ubuntu",
+        "items":[
+
+        ]
+      },
+      {
+        "key":1,
+        "desc":"nginx",
+        "cmd":"docker-compose -f docker-compose.test.yml restart nginx && docker-compose -f docker-compose.test.yml ps nginx",
+        "items":[
+
+        ]
+      }
+    ]
+  },
+  {
+    "key":"s",
+    "desc":"stop",
+    "ps":true,
+    "items":[
+      {
+        "key":"a",
+        "desc":"all",
+        "cmd":"docker-compose -f docker-compose.test.yml stop && docker-compose -f docker-compose.test.yml ps",
+        "items":[
+
+        ]
+      },
+      {
+        "key":0,
+        "desc":"ubuntu",
+        "cmd":"docker-compose -f docker-compose.test.yml stop ubuntu && docker-compose -f docker-compose.test.yml ps ubuntu",
+        "items":[
+
+        ]
+      },
+      {
+        "key":1,
+        "desc":"nginx",
+        "cmd":"docker-compose -f docker-compose.test.yml stop nginx && docker-compose -f docker-compose.test.yml ps nginx",
+        "items":[
+
+        ]
+      }
+    ]
+  },
+  {
+    "key":"k",
+    "desc":"kill",
+    "ps":true,
+    "items":[
+      {
+        "key":"a",
+        "desc":"all",
+        "cmd":"docker-compose -f docker-compose.test.yml kill && docker-compose -f docker-compose.test.yml ps",
+        "items":[
+
+        ]
+      },
+      {
+        "key":0,
+        "desc":"ubuntu",
+        "cmd":"docker-compose -f docker-compose.test.yml kill ubuntu && docker-compose -f docker-compose.test.yml ps ubuntu",
+        "items":[
+
+        ]
+      },
+      {
+        "key":1,
+        "desc":"nginx",
+        "cmd":"docker-compose -f docker-compose.test.yml kill nginx && docker-compose -f docker-compose.test.yml ps nginx",
+        "items":[
+
+        ]
+      }
+    ]
+  },
+  {
+    "key":"l",
+    "desc":"logs -f",
+    "items":[
+      {
+        "key":"a",
+        "desc":"all",
+        "cmd":"docker-compose -f docker-compose.test.yml logs -f",
+        "items":[
+
+        ]
+      },
+      {
+        "key":0,
+        "desc":"ubuntu",
+        "cmd":"docker-compose -f docker-compose.test.yml logs -f ubuntu",
+        "items":[
+
+        ]
+      },
+      {
+        "key":1,
+        "desc":"nginx",
+        "cmd":"docker-compose -f docker-compose.test.yml logs -f nginx",
+        "items":[
+
+        ]
+      }
+    ]
+  },
+  {
+    "key":"p",
+    "desc":"ps",
+    "items":[
+      {
+        "key":"a",
+        "desc":"all",
+        "cmd":"docker-compose -f docker-compose.test.yml ps",
+        "items":[
+
+        ]
+      },
+      {
+        "key":0,
+        "desc":"ubuntu",
+        "cmd":"docker-compose -f docker-compose.test.yml ps ubuntu",
+        "items":[
+
+        ]
+      },
+      {
+        "key":1,
+        "desc":"nginx",
+        "cmd":"docker-compose -f docker-compose.test.yml ps nginx",
+        "items":[
+
+        ]
+      }
+    ]
+  },
+  {
+    "key":"b",
+    "desc":"build",
+    "items":[
+      {
+        "key":"a",
+        "desc":"all",
+        "cmd":"docker-compose -f docker-compose.test.yml build",
+        "items":[
+
+        ]
+      },
+      {
+        "key":0,
+        "desc":"ubuntu",
+        "cmd":"docker-compose -f docker-compose.test.yml build ubuntu",
+        "items":[
+
+        ]
+      },
+      {
+        "key":1,
+        "desc":"nginx",
+        "cmd":"docker-compose -f docker-compose.test.yml build nginx",
+        "items":[
+
+        ]
+      }
+    ]
+  },
+  {
+    "key":"d",
+    "desc":"rm",
+    "ps":true,
+    "items":[
+      {
+        "key":"a",
+        "desc":"all",
+        "cmd":"docker-compose -f docker-compose.test.yml rm && docker-compose -f docker-compose.test.yml ps",
+        "items":[
+
+        ]
+      },
+      {
+        "key":0,
+        "desc":"ubuntu",
+        "cmd":"docker-compose -f docker-compose.test.yml rm ubuntu && docker-compose -f docker-compose.test.yml ps ubuntu",
+        "items":[
+
+        ]
+      },
+      {
+        "key":1,
+        "desc":"nginx",
+        "cmd":"docker-compose -f docker-compose.test.yml rm nginx && docker-compose -f docker-compose.test.yml ps nginx",
+        "items":[
+
+        ]
+      }
+    ]
+  },
+  {
+    "key":"c",
+    "desc":"display config",
+    "cmd":"docker-compose -f docker-compose.test.yml config",
+    "items":[
+
+    ]
+  }
+]

@@ -1,4 +1,4 @@
-# Hotshell Docker [![npm version](https://badge.fury.io/js/hotshell-docker.svg)](https://www.npmjs.com/package/hotshell-docker)
+# Hotshell Docker [![npm version](https://badge.fury.io/js/hotshell-docker.svg)](https://www.npmjs.com/package/hotshell-docker) [![Build Status](https://travis-ci.org/julienmoumne/hotshell-docker.svg?branch=master)](https://travis-ci.org/julienmoumne/hotshell-docker)
 
 > A collection of [Hotshell](http://julienmoumne.github.io/hotshell) patterns for Docker commands
 

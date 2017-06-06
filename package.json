@@ -6,6 +6,10 @@
   "directories": {
     "example": "examples"
   },
+  "scripts": {
+    "test": "mocha docker.hs.test.js",
+    "install": "napa julienmoumne/hotshell"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/julienmoumne/hotshell-docker"
@@ -26,5 +30,14 @@
   "bugs": {
     "url": "https://github.com/julienmoumne/hotshell-docker/issues"
   },
-  "homepage": "https://github.com/julienmoumne/hotshell-docker"
+  "homepage": "https://github.com/julienmoumne/hotshell-docker",
+  "devDependencies": {
+    "mocha": "^3.1.2",
+    "mock-require": "^2.0.2",
+    "napa": "^2.3.0",
+    "underscore": "^1.8.3"
+  },
+  "napa-config": {
+    "cache": false
+  }
 }
