@@ -6,66 +6,42 @@
          {
             "key":"u",
             "desc":"up -d",
-            "cmd":"docker-compose -f docker-compose.test.yml up -d && docker-compose -f docker-compose.test.yml ps",
-            "items":[
-
-            ]
+            "cmd":"docker-compose -f docker-compose.test.yml up -d && docker-compose -f docker-compose.test.yml ps"
          },
          {
             "key":"r",
             "desc":"restart",
-            "cmd":"docker-compose -f docker-compose.test.yml restart && docker-compose -f docker-compose.test.yml ps",
-            "items":[
-
-            ]
+            "cmd":"docker-compose -f docker-compose.test.yml restart && docker-compose -f docker-compose.test.yml ps"
          },
          {
             "key":"s",
             "desc":"stop",
-            "cmd":"docker-compose -f docker-compose.test.yml stop && docker-compose -f docker-compose.test.yml ps",
-            "items":[
-
-            ]
+            "cmd":"docker-compose -f docker-compose.test.yml stop && docker-compose -f docker-compose.test.yml ps"
          },
          {
             "key":"k",
             "desc":"kill",
-            "cmd":"docker-compose -f docker-compose.test.yml kill && docker-compose -f docker-compose.test.yml ps",
-            "items":[
-
-            ]
+            "cmd":"docker-compose -f docker-compose.test.yml kill && docker-compose -f docker-compose.test.yml ps"
          },
          {
             "key":"l",
             "desc":"logs -f",
-            "cmd":"docker-compose -f docker-compose.test.yml logs -f",
-            "items":[
-
-            ]
+            "cmd":"docker-compose -f docker-compose.test.yml logs -f"
          },
          {
             "key":"p",
             "desc":"ps",
-            "cmd":"docker-compose -f docker-compose.test.yml ps",
-            "items":[
-
-            ]
+            "cmd":"docker-compose -f docker-compose.test.yml ps"
          },
          {
             "key":"b",
             "desc":"build",
-            "cmd":"docker-compose -f docker-compose.test.yml build",
-            "items":[
-
-            ]
+            "cmd":"docker-compose -f docker-compose.test.yml build"
          },
          {
             "key":"d",
             "desc":"rm",
-            "cmd":"docker-compose -f docker-compose.test.yml rm && docker-compose -f docker-compose.test.yml ps",
-            "items":[
-
-            ]
+            "cmd":"docker-compose -f docker-compose.test.yml rm && docker-compose -f docker-compose.test.yml ps"
          }
       ]
    },
@@ -76,66 +52,42 @@
          {
             "key":"u",
             "desc":"up -d",
-            "cmd":"docker-compose -f docker-compose.test.yml up -d ubuntu && docker-compose -f docker-compose.test.yml ps ubuntu",
-            "items":[
-
-            ]
+            "cmd":"docker-compose -f docker-compose.test.yml up -d ubuntu && docker-compose -f docker-compose.test.yml ps ubuntu"
          },
          {
             "key":"r",
             "desc":"restart",
-            "cmd":"docker-compose -f docker-compose.test.yml restart ubuntu && docker-compose -f docker-compose.test.yml ps ubuntu",
-            "items":[
-
-            ]
+            "cmd":"docker-compose -f docker-compose.test.yml restart ubuntu && docker-compose -f docker-compose.test.yml ps ubuntu"
          },
          {
             "key":"s",
             "desc":"stop",
-            "cmd":"docker-compose -f docker-compose.test.yml stop ubuntu && docker-compose -f docker-compose.test.yml ps ubuntu",
-            "items":[
-
-            ]
+            "cmd":"docker-compose -f docker-compose.test.yml stop ubuntu && docker-compose -f docker-compose.test.yml ps ubuntu"
          },
          {
             "key":"k",
             "desc":"kill",
-            "cmd":"docker-compose -f docker-compose.test.yml kill ubuntu && docker-compose -f docker-compose.test.yml ps ubuntu",
-            "items":[
-
-            ]
+            "cmd":"docker-compose -f docker-compose.test.yml kill ubuntu && docker-compose -f docker-compose.test.yml ps ubuntu"
          },
          {
             "key":"l",
             "desc":"logs -f",
-            "cmd":"docker-compose -f docker-compose.test.yml logs -f ubuntu",
-            "items":[
-
-            ]
+            "cmd":"docker-compose -f docker-compose.test.yml logs -f ubuntu"
          },
          {
             "key":"p",
             "desc":"ps",
-            "cmd":"docker-compose -f docker-compose.test.yml ps ubuntu",
-            "items":[
-
-            ]
+            "cmd":"docker-compose -f docker-compose.test.yml ps ubuntu"
          },
          {
             "key":"b",
             "desc":"build",
-            "cmd":"docker-compose -f docker-compose.test.yml build ubuntu",
-            "items":[
-
-            ]
+            "cmd":"docker-compose -f docker-compose.test.yml build ubuntu"
          },
          {
             "key":"d",
             "desc":"rm",
-            "cmd":"docker-compose -f docker-compose.test.yml rm ubuntu && docker-compose -f docker-compose.test.yml ps ubuntu",
-            "items":[
-
-            ]
+            "cmd":"docker-compose -f docker-compose.test.yml rm ubuntu && docker-compose -f docker-compose.test.yml ps ubuntu"
          }
       ]
    },
@@ -146,75 +98,48 @@
          {
             "key":"u",
             "desc":"up -d",
-            "cmd":"docker-compose -f docker-compose.test.yml up -d nginx && docker-compose -f docker-compose.test.yml ps nginx",
-            "items":[
-
-            ]
+            "cmd":"docker-compose -f docker-compose.test.yml up -d nginx && docker-compose -f docker-compose.test.yml ps nginx"
          },
          {
             "key":"r",
             "desc":"restart",
-            "cmd":"docker-compose -f docker-compose.test.yml restart nginx && docker-compose -f docker-compose.test.yml ps nginx",
-            "items":[
-
-            ]
+            "cmd":"docker-compose -f docker-compose.test.yml restart nginx && docker-compose -f docker-compose.test.yml ps nginx"
          },
          {
             "key":"s",
             "desc":"stop",
-            "cmd":"docker-compose -f docker-compose.test.yml stop nginx && docker-compose -f docker-compose.test.yml ps nginx",
-            "items":[
-
-            ]
+            "cmd":"docker-compose -f docker-compose.test.yml stop nginx && docker-compose -f docker-compose.test.yml ps nginx"
          },
          {
             "key":"k",
             "desc":"kill",
-            "cmd":"docker-compose -f docker-compose.test.yml kill nginx && docker-compose -f docker-compose.test.yml ps nginx",
-            "items":[
-
-            ]
+            "cmd":"docker-compose -f docker-compose.test.yml kill nginx && docker-compose -f docker-compose.test.yml ps nginx"
          },
          {
             "key":"l",
             "desc":"logs -f",
-            "cmd":"docker-compose -f docker-compose.test.yml logs -f nginx",
-            "items":[
-
-            ]
+            "cmd":"docker-compose -f docker-compose.test.yml logs -f nginx"
          },
          {
             "key":"p",
             "desc":"ps",
-            "cmd":"docker-compose -f docker-compose.test.yml ps nginx",
-            "items":[
-
-            ]
+            "cmd":"docker-compose -f docker-compose.test.yml ps nginx"
          },
          {
             "key":"b",
             "desc":"build",
-            "cmd":"docker-compose -f docker-compose.test.yml build nginx",
-            "items":[
-
-            ]
+            "cmd":"docker-compose -f docker-compose.test.yml build nginx"
          },
          {
             "key":"d",
             "desc":"rm",
-            "cmd":"docker-compose -f docker-compose.test.yml rm nginx && docker-compose -f docker-compose.test.yml ps nginx",
-            "items":[
-
-            ]
+            "cmd":"docker-compose -f docker-compose.test.yml rm nginx && docker-compose -f docker-compose.test.yml ps nginx"
          }
       ]
    },
    {
       "key":"c",
       "desc":"display config",
-      "cmd":"docker-compose -f docker-compose.test.yml config",
-      "items":[
-
-      ]
+      "cmd":"docker-compose -f docker-compose.test.yml config"
    }
 ]
