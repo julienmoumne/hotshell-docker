@@ -13,6 +13,7 @@ exports.compose = function(composeFile) {
         {key: 'l', desc: 'logs -f'},
         {key: 'p', desc: 'ps'},
         {key: 'b', desc: 'build'},
+        {key: 'B', desc: 'build --no-cache'},
         {key: 'd', desc: 'rm', ps: true}
     ]
     
