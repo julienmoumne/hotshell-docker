@@ -53,6 +53,12 @@
         "wd": "./"
       },
       {
+        "key": "P",
+        "desc": "push",
+        "cmd": "docker-compose -f docker-compose.test.yml push",
+        "wd": "./"
+      },
+      {
         "key": "d",
         "desc": "rm",
         "cmd": "docker-compose -f docker-compose.test.yml rm && docker-compose -f docker-compose.test.yml ps",
@@ -114,6 +120,12 @@
         "wd": "./"
       },
       {
+        "key": "P",
+        "desc": "push",
+        "cmd": "docker-compose -f docker-compose.test.yml push ubuntu",
+        "wd": "./"
+      },
+      {
         "key": "d",
         "desc": "rm",
         "cmd": "docker-compose -f docker-compose.test.yml rm ubuntu && docker-compose -f docker-compose.test.yml ps ubuntu",
@@ -172,6 +184,12 @@
         "key": "B",
         "desc": "build --no-cache",
         "cmd": "docker-compose -f docker-compose.test.yml build --no-cache nginx",
+        "wd": "./"
+      },
+      {
+        "key": "P",
+        "desc": "push",
+        "cmd": "docker-compose -f docker-compose.test.yml push nginx",
         "wd": "./"
       },
       {

@@ -204,6 +204,31 @@
     ]
   },
   {
+    "key": "P",
+    "desc": "push",
+    "wd": "./",
+    "items": [
+      {
+        "key": "a",
+        "desc": "all",
+        "cmd": "docker-compose -f docker-compose.test.yml push",
+        "wd": "./"
+      },
+      {
+        "key": 0,
+        "desc": "ubuntu",
+        "cmd": "docker-compose -f docker-compose.test.yml push ubuntu",
+        "wd": "./"
+      },
+      {
+        "key": 1,
+        "desc": "nginx",
+        "cmd": "docker-compose -f docker-compose.test.yml push nginx",
+        "wd": "./"
+      }
+    ]
+  },
+  {
     "key": "d",
     "desc": "rm",
     "ps": true,

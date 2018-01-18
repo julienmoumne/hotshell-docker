@@ -14,6 +14,7 @@ exports.compose = function(composeFile) {
         {key: 'p', desc: 'ps'},
         {key: 'b', desc: 'build'},
         {key: 'B', desc: 'build --no-cache'},
+        {key: 'P', desc: 'push'},
         {key: 'd', desc: 'rm', ps: true}
     ]
     
