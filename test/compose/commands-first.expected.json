@@ -154,6 +154,32 @@
     ]
   },
   {
+    "key": "e",
+    "desc": "exec",
+    "args": "sh",
+    "wd": "./",
+    "items": [
+      {
+        "key": "a",
+        "desc": "all",
+        "cmd": "docker-compose -f docker-compose.test.yml exec sh",
+        "wd": "./"
+      },
+      {
+        "key": 0,
+        "desc": "ubuntu",
+        "cmd": "docker-compose -f docker-compose.test.yml exec ubuntu sh",
+        "wd": "./"
+      },
+      {
+        "key": 1,
+        "desc": "nginx",
+        "cmd": "docker-compose -f docker-compose.test.yml exec nginx sh",
+        "wd": "./"
+      }
+    ]
+  },
+  {
     "key": "b",
     "desc": "build",
     "wd": "./",

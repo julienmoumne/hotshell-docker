@@ -41,6 +41,12 @@
         "wd": "./"
       },
       {
+        "key": "e",
+        "desc": "exec",
+        "cmd": "docker-compose -f docker-compose.test.yml exec sh",
+        "wd": "./"
+      },
+      {
         "key": "b",
         "desc": "build",
         "cmd": "docker-compose -f docker-compose.test.yml build",
@@ -108,6 +114,12 @@
         "wd": "./"
       },
       {
+        "key": "e",
+        "desc": "exec",
+        "cmd": "docker-compose -f docker-compose.test.yml exec ubuntu sh",
+        "wd": "./"
+      },
+      {
         "key": "b",
         "desc": "build",
         "cmd": "docker-compose -f docker-compose.test.yml build ubuntu",
@@ -172,6 +184,12 @@
         "key": "p",
         "desc": "ps",
         "cmd": "docker-compose -f docker-compose.test.yml ps nginx",
+        "wd": "./"
+      },
+      {
+        "key": "e",
+        "desc": "exec",
+        "cmd": "docker-compose -f docker-compose.test.yml exec nginx sh",
         "wd": "./"
       },
       {

@@ -12,6 +12,7 @@ exports.compose = function(composeFile) {
         {key: 'k', desc: 'kill', ps: true},
         {key: 'l', desc: 'logs -f'},
         {key: 'p', desc: 'ps'},
+        {key: 'e', desc: 'exec', args: 'sh'},
         {key: 'b', desc: 'build'},
         {key: 'B', desc: 'build --no-cache'},
         {key: 'P', desc: 'push'},
@@ -21,8 +22,9 @@ exports.compose = function(composeFile) {
     function createCmdForService(command, service) {
         var service = service == 'all' ? '' : ' ' + service
         var baseCmd = getComposeCmd(composeFile)
+        var args = _(command.args).isUndefined() ? '' : ' ' + command.args
         var post = _(command.ps).isUndefined() ? '' : ' && ' + baseCmd + 'ps' + service
-        return baseCmd + command.desc + service + post
+        return baseCmd + command.desc + service + args + post
     }
         
     function createCommandForEveryServices(command) {
