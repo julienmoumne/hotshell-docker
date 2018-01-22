@@ -1,6 +1,6 @@
 {
   "name": "hotshell-docker",
-  "version": "0.7.0",
+  "version": "0.8.0",
   "description": "A collection of Hotshell patterns for Docker commands",
   "main": "docker.hs.js",
   "directories": {
