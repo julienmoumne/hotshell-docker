@@ -26,6 +26,31 @@
     ]
   },
   {
+    "key": "U",
+    "desc": "up",
+    "wd": "./",
+    "items": [
+      {
+        "key": "a",
+        "desc": "all",
+        "cmd": "docker-compose -f docker-compose.test.yml up",
+        "wd": "./"
+      },
+      {
+        "key": 0,
+        "desc": "ubuntu",
+        "cmd": "docker-compose -f docker-compose.test.yml up ubuntu",
+        "wd": "./"
+      },
+      {
+        "key": 1,
+        "desc": "nginx",
+        "cmd": "docker-compose -f docker-compose.test.yml up nginx",
+        "wd": "./"
+      }
+    ]
+  },
+  {
     "key": "r",
     "desc": "restart",
     "ps": true,

@@ -11,6 +11,12 @@
         "wd": "./"
       },
       {
+        "key": "U",
+        "desc": "up",
+        "cmd": "docker-compose -f docker-compose.test.yml up",
+        "wd": "./"
+      },
+      {
         "key": "r",
         "desc": "restart",
         "cmd": "docker-compose -f docker-compose.test.yml restart && docker-compose -f docker-compose.test.yml ps",
@@ -84,6 +90,12 @@
         "wd": "./"
       },
       {
+        "key": "U",
+        "desc": "up",
+        "cmd": "docker-compose -f docker-compose.test.yml up ubuntu",
+        "wd": "./"
+      },
+      {
         "key": "r",
         "desc": "restart",
         "cmd": "docker-compose -f docker-compose.test.yml restart ubuntu && docker-compose -f docker-compose.test.yml ps ubuntu",
@@ -154,6 +166,12 @@
         "key": "u",
         "desc": "up -d",
         "cmd": "docker-compose -f docker-compose.test.yml up -d nginx && docker-compose -f docker-compose.test.yml ps nginx",
+        "wd": "./"
+      },
+      {
+        "key": "U",
+        "desc": "up",
+        "cmd": "docker-compose -f docker-compose.test.yml up nginx",
         "wd": "./"
       },
       {

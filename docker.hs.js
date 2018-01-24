@@ -7,6 +7,7 @@ exports.compose = function(composeFile) {
     
     var commands = [
         {key: 'u', desc: 'up -d', ps: true},
+        {key: 'U', desc: 'up'},
         {key: 'r', desc: 'restart', ps: true},
         {key: 's', desc: 'stop', ps: true},
         {key: 'k', desc: 'kill', ps: true},
