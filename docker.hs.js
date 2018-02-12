@@ -7,13 +7,13 @@ exports.compose = function(composeFile) {
     
     var commands = [
         {key: 'u', desc: 'up -d', ps: true},
-        {key: 'U', desc: 'up'},
+        {key: 'U', desc: 'up', ps: true},
         {key: 'r', desc: 'restart', ps: true},
         {key: 's', desc: 'stop', ps: true},
         {key: 'k', desc: 'kill', ps: true},
         {key: 'l', desc: 'logs -f'},
         {key: 'p', desc: 'ps'},
-        {key: 'e', desc: 'exec', args: 'sh'},
+        {key: 'e', desc: 'exec', args: 'bash'},
         {key: 'b', desc: 'build'},
         {key: 'B', desc: 'build --no-cache'},
         {key: 'P', desc: 'push'},

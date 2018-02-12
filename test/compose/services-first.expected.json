@@ -13,7 +13,7 @@
       {
         "key": "U",
         "desc": "up",
-        "cmd": "docker-compose -f docker-compose.test.yml up",
+        "cmd": "docker-compose -f docker-compose.test.yml up && docker-compose -f docker-compose.test.yml ps",
         "wd": "./"
       },
       {
@@ -49,7 +49,7 @@
       {
         "key": "e",
         "desc": "exec",
-        "cmd": "docker-compose -f docker-compose.test.yml exec sh",
+        "cmd": "docker-compose -f docker-compose.test.yml exec bash",
         "wd": "./"
       },
       {
@@ -92,7 +92,7 @@
       {
         "key": "U",
         "desc": "up",
-        "cmd": "docker-compose -f docker-compose.test.yml up ubuntu",
+        "cmd": "docker-compose -f docker-compose.test.yml up ubuntu && docker-compose -f docker-compose.test.yml ps ubuntu",
         "wd": "./"
       },
       {
@@ -128,7 +128,7 @@
       {
         "key": "e",
         "desc": "exec",
-        "cmd": "docker-compose -f docker-compose.test.yml exec ubuntu sh",
+        "cmd": "docker-compose -f docker-compose.test.yml exec ubuntu bash",
         "wd": "./"
       },
       {
@@ -171,7 +171,7 @@
       {
         "key": "U",
         "desc": "up",
-        "cmd": "docker-compose -f docker-compose.test.yml up nginx",
+        "cmd": "docker-compose -f docker-compose.test.yml up nginx && docker-compose -f docker-compose.test.yml ps nginx",
         "wd": "./"
       },
       {
@@ -207,7 +207,7 @@
       {
         "key": "e",
         "desc": "exec",
-        "cmd": "docker-compose -f docker-compose.test.yml exec nginx sh",
+        "cmd": "docker-compose -f docker-compose.test.yml exec nginx bash",
         "wd": "./"
       },
       {
