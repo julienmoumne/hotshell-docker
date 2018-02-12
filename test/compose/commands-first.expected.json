@@ -2,7 +2,6 @@
   {
     "key": "u",
     "desc": "up -d",
-    "ps": true,
     "wd": "./",
     "items": [
       {
@@ -28,7 +27,6 @@
   {
     "key": "U",
     "desc": "up",
-    "ps": true,
     "wd": "./",
     "items": [
       {
@@ -54,7 +52,6 @@
   {
     "key": "r",
     "desc": "restart",
-    "ps": true,
     "wd": "./",
     "items": [
       {
@@ -80,7 +77,6 @@
   {
     "key": "s",
     "desc": "stop",
-    "ps": true,
     "wd": "./",
     "items": [
       {
@@ -106,7 +102,6 @@
   {
     "key": "k",
     "desc": "kill",
-    "ps": true,
     "wd": "./",
     "items": [
       {
@@ -182,7 +177,6 @@
   {
     "key": "e",
     "desc": "exec",
-    "args": "bash",
     "wd": "./",
     "items": [
       {
@@ -283,7 +277,6 @@
   {
     "key": "d",
     "desc": "rm",
-    "ps": true,
     "wd": "./",
     "items": [
       {
